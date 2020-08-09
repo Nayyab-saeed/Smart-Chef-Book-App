@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">SmartRecipe</string>
+    <string name="welcome">Smart Chef Book</string>
+    <string name="a">ABOUT</string>
+    <string name="e">ENTER</string>
+    <string name="display">show list of food item</string>
+    <string name="b">Biryani</string>
+    <string name="p">Palao</string>
+    <string name="v">Veg Curry</string>
+    <string name="pc">Pulse Curry</string>
+    <string name="fs">Fruit Salad</string>
+    <string name="vs">Veg Salad</string>
+    <string name="d">Desserts</string>
+    <string name="i">Ice Cream</string>
+    <string name="j">Juice</string>
+    <string name="s">Soup</string>
+    <string name="rn">Roti Nan</string>
+    <string name="ff">Fast Food</string>
+    <string name="mc">Meat Curry</string>
+    <string name="c">Chinese Food</string>
+    <string name="bf">BreakFast</string>
+    <string name="sp">Special</string>
+    <string name="in">Ingredients:</string>
+    <string name="et">Estimated time</string>
+    <string name="ps">Method:</string>
+    <string name="to">Display Image</string>
+    <string name="h">Search for Recipe</string>
+    <string name="sb">Sindhi biryani</string>
+    <string name="f">Follow Us On</string>
+    <string name="ingredients">
+        2 cups Basmati- Rice
+        3/4kg Chicken piecesOnion 3 large, sliced
+        1 cup Yoghurt
+        1 tsp Ginger paste
+        1/2 tsp Garlic paste
+        1 tsp Green chilli paste
+        1/2 cup Tomato puree
+        2 tsp Red chilli powder
+        1 tsp Turmeric powder
+        1 tsp Cumin powder (roasted)
+        1/2 tsp Cardamom powder
+        2 tsp Garam masala powder
+        1/2 cup Milk
+        A pinch Saffron
+        1 tsp Coriander powder
+        Green coriander leaves 2 tbsp, chopped
+        Water 3 1/2 cups
+        7 tbsp Oil
+        Salt as required </string>
+    <string name="Method">
+        1. Make a mixture with tomato yoghurt, puree, green chilli paste, ginger garlic paste, red chilli powder, roasted cumin powder, turmeric powder, garam masala powder, coriander powder and salt.
+        2. Take the chicken and marinade it in the same mixture. Let it rest for 3-4 hours.
+        3. Put oil in a pan, heat it and fry onions till they turn golden brown.
+        4. Now, to this add the marinated chicken and cook the entire mixture for 10 mints.
+        5. After that in a pressure cooker, take the rice and add 3 1/2 cups of water to it. Also, take the saffron, mix with the milk and add to the rice.
+        6. Lastly, add the cardamom powder and the chicken pieces, along with the marinade.
+        7. Mix all the ingredients gently, cover with the cooker lid and pressure cook for 1 whistle.
+        8. Your tasty chicken biryani recipe is ready now ....
+    </string>
+    <string name="time">2 hours</string>
+    <string name="about">Who said our smartphones don’t belong in the kitchen? These days, you can use your phone and tablet to pull up a recipe for any dish: paratha, fasting recipe, pickles recipe, or any other cuisine you can dream of. Whether you run iOS or Android, there’s no shortage of freemium and reasonably priced recipe apps. To help you cut through the noise, we’ve rounded up a handful of our favorites, so you can get your grub on without wasting time on duds that are loaded with more ads than info.
+In this app, all the recipes have been organized and cataloged so that you can relate the recipes by categories, cuisines and ingredients. Ingredients and detailed recipe of all the items in a category and estimated time required for its preparation is given and you can easily search any recipe from any category. </string>
+    <string name="title_activity_main7">Main7Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="open" />
+    <string name="close" />
+</resources>

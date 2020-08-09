@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".Main2Activity">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/b2"
+        tools:context=".Main2Activity">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:alignmentMode="alignMargins"
+            android:baselineAligned="false"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:padding="10dp">
+
+            <!--biryani-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c1"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib1"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/biryani" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/b"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--palao-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c2"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib2"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/palao" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/p"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--vegetable curry-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c3"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib3"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/pulses" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pulses"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--pulses 1-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c4"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib4"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/vegetablecurry" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/v"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--fruit salad-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c5"
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib5"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/fruitsalad" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fs"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Vegetable salad-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c6"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib6"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/salads" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vs"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Desserts-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c7"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib7"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/desserts" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/d"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--ice creams-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c8"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib8"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/icecream" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/i"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--juices-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c9"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib9"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/juice" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/j"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Soup-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c10"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib10"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/soup" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/s"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Roti Nan-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c11"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib11"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/nan" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rn"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Fast food-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c12"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib12"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/fastfood" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ff"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--meat curry-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c13"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib13"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/meat" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--chinese food-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c14"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib14"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/chinese" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/c"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--breakfast-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c15"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib15"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/breakfast" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bf"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Special-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c16"
+                android:layout_width="0dp"
+                android:layout_height="220dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical"
+                    android:textAlignment="center">
+
+                    <ImageButton
+                        android:id="@+id/ib16"
+                        android:layout_width="140dp"
+                        android:layout_height="160dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="@string/display"
+                        android:fitsSystemWindows="true"
+                        android:src="@drawable/special" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </ScrollView>
+</androidx.drawerlayout.widget.DrawerLayout>

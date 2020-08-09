@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="General">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/home"
+                    android:icon="@drawable/home"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/search"
+                    android:icon="@drawable/search"
+                    android:title="Search" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Communication">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/follow"
+                    android:icon="@drawable/follow"
+                    android:title="Follow us" />
+                <item
+                    android:id="@+id/Contact"
+                    android:icon="@drawable/contact"
+                    android:title="Contact us" />
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/about"
+        android:title="About" />
+</menu>
